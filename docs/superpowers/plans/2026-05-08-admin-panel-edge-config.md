@@ -1564,3 +1564,30 @@ git commit -m "feat: register /admin route — admin panel complete"
 | `EDGE_CONFIG_ID` | The `ecfg_xxx` part of the connection string | `ecfg_abc123` |
 | `VERCEL_TOKEN` | Vercel → Account Settings → Tokens | `vercel_xxxxxx` |
 | `ADMIN_PASSWORD` | You choose | `gummy2026admin` |
+
+---
+
+## Environment Setup (Vercel)
+
+To deploy the admin panel, configure the following environment variables in your Vercel project settings:
+
+| Variable | Description |
+|----------|-------------|
+| `EDGE_CONFIG` | Edge Config connection string (from the Edge Config dashboard, e.g. `ecfg_xxx`) |
+| `EDGE_CONFIG_ID` | Edge Config ID (e.g. `ecfg_xxx` — same value without the `https://` prefix) |
+| `VERCEL_TOKEN` | Vercel API token with read/write access |
+| `ADMIN_PASSWORD` | Password to protect the `/admin` route (set something strong) |
+
+### First-time seed
+
+After deploying, visit `/admin`, enter your password, and click **Save**. This will seed your Edge Config with the default content. From then on, edits save immediately without redeploy.
+
+### Edge Config setup steps
+
+1. In the Vercel dashboard, go to **Storage → Edge Config → Create**
+2. Add the connection string as `EDGE_CONFIG` env var
+3. Set `EDGE_CONFIG_ID` to just the ID portion (e.g. `ecfg_xxxxxxxx`)
+4. Create a Vercel API token at vercel.com/account/tokens and set it as `VERCEL_TOKEN`
+5. Set `ADMIN_PASSWORD` to a secure password
+
+> The `/api/content` endpoint initializes the `campaign` key in Edge Config on first POST. No manual JSON setup needed.
