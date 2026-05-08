@@ -1,12 +1,12 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { get } from "@vercel/edge-config";
+import { timingSafeEqual } from "node:crypto";
 import defaults from "../src/data/defaults.json";
 import type { CampaignContent } from "../src/lib/content-types";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  res.setHeader("Access-Control-Allow-Origin", "*");
-
   if (req.method === "GET") {
+    res.setHeader("Access-Control-Allow-Origin", "*");
     try {
       const content = await get<CampaignContent>("campaign");
       return res.json(content ?? defaults);
@@ -17,7 +17,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   if (req.method === "POST") {
     const password = req.headers["x-admin-password"];
-    if (!password || password !== process.env.ADMIN_PASSWORD) {
+    const expected = Buffer.from(process.env.ADMIN_PASSWORD ?? "");
+    const provided = Buffer.from(typeof password === "string" ? password : "");
+    const valid =
+      provided.length === expected.length &&
+      timingSafeEqual(provided, expected);
+    if (!valid) {
       return res.status(401).json({ error: "Unauthorized" });
     }
 
