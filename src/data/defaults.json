@@ -1,0 +1,171 @@
+{
+  "hero": {
+    "title": "Mega Campanha",
+    "titleHighlight": "Gummy Original — TikTok Shop",
+    "subtitle": "Tudo o que você precisa saber para maximizar suas comissões e garantir suas recompensas extras na Mega Campanha Gummy Original × TikTok Shop."
+  },
+  "stats": [
+    {
+      "icon": "Calendar",
+      "label": "Período",
+      "value": "11/05 — 31/05",
+      "sublabel": "2026 · Até 23h59 (BRT)",
+      "highlight": false
+    },
+    {
+      "icon": "Users",
+      "label": "Elegibilidade",
+      "value": "Afiliados TikTok Shop",
+      "sublabel": "Conta ativa + Comunidade Gummy",
+      "highlight": false
+    },
+    {
+      "icon": "Hash",
+      "label": "Hashtag Oficial",
+      "value": "#GummyOriginal",
+      "sublabel": "Obrigatória em todos os vídeos",
+      "highlight": true
+    }
+  ],
+  "sections": [
+    {
+      "number": "01",
+      "title": "Visão Geral da Campanha",
+      "navLabel": "Visão Geral",
+      "icon": "Eye",
+      "blocks": [
+        { "type": "paragraph", "text": "Campanha promocional voltada para criadores afiliados da TikTok Shop, com o objetivo de impulsionar vendas por meio de conteúdos alinhados à narrativa da marca." },
+        { "type": "paragraph", "text": "Durante o período da campanha, os participantes poderão gerar receita por meio de comissões na plataforma e, adicionalmente, conquistar recompensas com base no desempenho em vendas e na produção de conteúdo." }
+      ]
+    },
+    {
+      "number": "02",
+      "title": "Elegibilidade",
+      "navLabel": "Elegibilidade",
+      "icon": "ShieldCheck",
+      "blocks": [
+        { "type": "paragraph", "text": "Para participar da campanha, é necessário:" },
+        { "type": "list", "items": [
+          { "text": "Possuir uma conta ativa e válida como afiliado na TikTok Shop", "variant": "check" },
+          { "text": "Estar conectado à comunidade oficial da Gummy Original", "variant": "check" },
+          { "text": "Estar de acordo com os termos e condições desta campanha", "variant": "check" }
+        ]}
+      ]
+    },
+    {
+      "number": "03",
+      "title": "Período da Campanha",
+      "navLabel": "Período",
+      "icon": "Calendar",
+      "blocks": [
+        { "type": "paragraph", "text": "A campanha será realizada de **11 de Maio de 2026** até **31 de Maio de 2026**, às 23h59 (horário de Brasília)." }
+      ]
+    },
+    {
+      "number": "04",
+      "title": "Termos Gerais",
+      "navLabel": "Termos Gerais",
+      "icon": "FileText",
+      "blocks": [
+        { "type": "list", "items": [
+          { "text": "A campanha é válida exclusivamente para vendas realizadas dentro da TikTok Shop", "variant": "check" },
+          { "text": "O GMV (Volume Bruto de Mercadorias) será calculado com base nas vendas válidas durante o período da campanha", "variant": "check" },
+          { "text": "Pedidos cancelados, devolvidos ou reembolsados serão automaticamente descontados do GMV total", "variant": "warning" },
+          { "text": "A apuração final dos resultados será realizada pela Gummy, que possui total critério sobre validação e classificação", "variant": "check" }
+        ]}
+      ]
+    },
+    {
+      "number": "05",
+      "title": "Regras de Participação",
+      "navLabel": "Participação",
+      "icon": "Video",
+      "blocks": [
+        { "type": "paragraph", "text": "Para que as vendas e conteúdos sejam considerados na campanha, é obrigatório:" },
+        { "type": "list", "items": [
+          { "text": "Marcar corretamente os produtos Gummy nos vídeos", "variant": "check" },
+          { "text": "Utilizar a hashtag oficial ==#GummyOriginal==", "variant": "check" },
+          { "text": "Publicar no mínimo **20 vídeos novos** durante o período da campanha", "variant": "check" }
+        ]},
+        { "type": "note", "text": "Serão consideradas apenas vendas provenientes de conteúdos que estejam em conformidade com as diretrizes. A Gummy se reserva o direito de desconsiderar conteúdos que não estejam alinhados com a proposta da campanha, mesmo que tenham gerado vendas." }
+      ]
+    },
+    {
+      "number": "06",
+      "title": "Práticas Não Permitidas",
+      "navLabel": "Proibições",
+      "icon": "AlertTriangle",
+      "blocks": [
+        { "type": "danger-list", "footer": "A violação dessas diretrizes poderá resultar na desclassificação do participante.", "items": [
+          { "text": "Inflar artificialmente o GMV por meio de compras próprias ou práticas fraudulentas", "variant": "x" },
+          { "text": "Utilizar múltiplas contas de forma indevida", "variant": "x" },
+          { "text": "Fazer comparação de preço entre canais: Site, Farmácias, etc.", "variant": "x" },
+          { "text": "Falar do preço \"3 por 1\" ou jogar goma no lixo sugerindo que está barato demais", "variant": "x" },
+          { "text": "Divulgar informações falsas, não comprovadas ou não aprovadas pela marca", "variant": "x" },
+          { "text": "Produzir conteúdos que desvalorizem o posicionamento da Gummy Original", "variant": "x" }
+        ]}
+      ]
+    },
+    {
+      "number": "07",
+      "title": "Diretrizes de Conteúdo",
+      "navLabel": "Conteúdo",
+      "icon": "FileText",
+      "blocks": [
+        { "type": "paragraph", "text": "Os participantes devem seguir as seguintes orientações:" },
+        { "type": "list", "items": [
+          { "text": "Utilizar exclusivamente informações e alegações oficiais disponíveis em [gummy.com.br](https://gummy.com.br) e materiais enviados na comunidade", "variant": "check" },
+          { "text": "Não realizar alegações médicas, terapêuticas ou relacionadas a doenças", "variant": "x" },
+          { "text": "Não prometer resultados que não estejam comprovados", "variant": "x" }
+        ]},
+        { "type": "note", "text": "A Gummy poderá remover ou desconsiderar conteúdos que não estejam em conformidade com essas diretrizes." }
+      ]
+    },
+    {
+      "number": "08",
+      "title": "Condições de Pagamento",
+      "navLabel": "Pagamento",
+      "icon": "CreditCard",
+      "blocks": [
+        { "type": "list", "items": [
+          { "text": "As comissões geradas pelos vídeos serão pagas diretamente pela plataforma TikTok", "variant": "check" },
+          { "text": "As recompensas da campanha serão pagas em até **35 dias** após o encerramento da campanha", "variant": "check" },
+          { "text": "Para resgatar seu prêmio, preencha até o dia 15/06 o [Formulário para envio do GMV](https://forms.monday.com/forms/ddb13a0cb6b14f33b0fbeb800b67397b?r=use1)", "variant": "check" },
+          { "text": "Ao receber o prêmio, o participante deverá produzir conteúdo com o intuito de motivar outras pessoas", "variant": "warning" },
+          { "text": "É obrigatório que o participante possua dados de pagamento válidos na plataforma", "variant": "check" },
+          { "text": "Prazo para divulgação dos vencedores: **1 semana** após o fim da campanha", "variant": "check" },
+          { "text": "Após a divulgação dos vencedores, o prazo será de **1 semana** para emissão da Nota Fiscal", "variant": "check" },
+          { "text": "A emissão de Nota Fiscal é **obrigatória** para recebimento das recompensas", "variant": "warning" },
+          { "text": "Na ausência de Nota Fiscal válida, o pagamento não será realizado", "variant": "x" },
+          { "text": "Todos os impostos e tributos são de responsabilidade exclusiva do participante", "variant": "check" }
+        ]}
+      ]
+    },
+    {
+      "number": "09",
+      "title": "Utilização de Conteúdo",
+      "navLabel": "Uso de Conteúdo",
+      "icon": "Share2",
+      "blocks": [
+        { "type": "paragraph", "text": "Ao participar da campanha e receber recompensas, o participante autoriza a Gummy a utilizar seus conteúdos para fins de marketing, incluindo veiculação em plataformas de mídia paga, como Meta Ads." },
+        { "type": "paragraph", "text": "Caso o participante não concorde com a utilização de seus conteúdos, deverá informar previamente à equipe responsável." }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Modificações e Encerramento",
+      "navLabel": "Modificações",
+      "icon": "Settings",
+      "blocks": [
+        { "type": "paragraph", "text": "A Gummy reserva-se o direito de modificar, suspender ou encerrar a campanha a qualquer momento, conforme necessário." },
+        { "type": "paragraph", "text": "Eventuais alterações serão comunicadas por meio dos canais oficiais da marca." }
+      ]
+    }
+  ],
+  "footer": {
+    "disclaimer": "Ao participar da campanha, você declara estar ciente e de acordo com todos os termos descritos nesta página.",
+    "ctaText": "Entrar na Comunidade Gummy",
+    "ctaUrl": "https://chat.whatsapp.com/FVqNk0ZEDOV02jSIa4QkSA",
+    "copyright": "© 2026 Gummy Original · Todos os direitos reservados"
+  }
+}

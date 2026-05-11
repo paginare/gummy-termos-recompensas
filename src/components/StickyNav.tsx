@@ -1,16 +1,8 @@
-const sections = [
-  { id: "01", label: "Visão Geral" },
-  { id: "02", label: "Elegibilidade" },
-  { id: "03", label: "Termos Gerais" },
-  { id: "04", label: "Participação" },
-  { id: "05", label: "Proibições" },
-  { id: "06", label: "Conteúdo" },
-  { id: "07", label: "Pagamento" },
-  { id: "08", label: "Uso de Conteúdo" },
-  { id: "09", label: "Modificações" },
-];
+import { useContent } from "@/hooks/useContent";
 
 const StickyNav = () => {
+  const { sections } = useContent();
+
   const scrollTo = (id: string) => {
     document.getElementById(`section-${id}`)?.scrollIntoView({ behavior: "smooth" });
   };
@@ -20,12 +12,12 @@ const StickyNav = () => {
       <div className="flex flex-col gap-1">
         {sections.map((s) => (
           <button
-            key={s.id}
-            onClick={() => scrollTo(s.id)}
+            key={s.number}
+            onClick={() => scrollTo(s.number)}
             className="text-left text-xs text-muted-foreground hover:text-primary transition-colors px-3 py-1.5 rounded-lg hover:bg-accent"
           >
-            <span className="font-mono mr-1.5 text-muted-foreground/50">{s.id}</span>
-            {s.label}
+            <span className="font-mono mr-1.5 text-muted-foreground/50">{s.number}</span>
+            {s.navLabel}
           </button>
         ))}
       </div>
