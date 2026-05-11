@@ -130,6 +130,7 @@
         { "type": "list", "items": [
           { "text": "As comissões geradas pelos vídeos serão pagas diretamente pela plataforma TikTok", "variant": "check" },
           { "text": "As recompensas da campanha serão pagas em até **35 dias** após o encerramento da campanha", "variant": "check" },
+          { "text": "Para resgatar seu prêmio, preencha até o dia 15/06 o [Formulário para envio do GMV](https://forms.monday.com/forms/ddb13a0cb6b14f33b0fbeb800b67397b?r=use1)", "variant": "check" },
           { "text": "Ao receber o prêmio, o participante deverá produzir conteúdo com o intuito de motivar outras pessoas", "variant": "warning" },
           { "text": "É obrigatório que o participante possua dados de pagamento válidos na plataforma", "variant": "check" },
           { "text": "Prazo para divulgação dos vencedores: **1 semana** após o fim da campanha", "variant": "check" },
